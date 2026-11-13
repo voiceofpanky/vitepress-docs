@@ -1,7 +1,7 @@
 export default {
   title: 'STEMSpark4Kids User Guide',
   description: 'User documentation for STEMSpark4Kids',
-  base: '/user-guide/',
+  base: '/',
   outDir: '../build/user-guide',
   themeConfig: {
     nav: [
