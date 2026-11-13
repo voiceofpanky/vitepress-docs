@@ -1,0 +1,35 @@
+{
+  "name": "vitepress-docs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "vitepress": "^1.6.4"
+  },
+  "overrides": {
+    "react-router-dom": "7.11.0",
+    "react-router": "7.11.0",
+    "vite": "6.4.6",
+    "@docsearch/js": "5.2.0",
+    "@docsearch/react": "5.2.0",
+    "@docsearch/css": "5.2.0"
+  },
+  "scripts": {
+    "start": "vitepress dev docs",
+    "build:docs": "vitepress build docs",
+    "doc": "vitepress dev docs"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
