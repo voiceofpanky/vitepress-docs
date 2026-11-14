@@ -29,12 +29,12 @@ The shared application layout provides the main navigation and footer. The `/das
 | `/student` | Student dashboard | Students |
 | `/parent` | Parent dashboard | Parents |
 | `/teacher` | Teacher dashboard | Teachers |
-<!-- | `/admin` | Admin console | Admins | -->
 | `/subject/:subjectId` | Subject activities | Signed-in users |
 | `/activity/:subjectId/:activityId` | Activity player | Signed-in users |
 | `/ai-worksheet` | AI worksheet generator | All signed-in roles |
 | `/leaderboard` | Weekly leaderboard | Signed-in users |
 | `/progress` | Progress reports | Signed-in users |
+<!-- | `/admin` | Admin console | Admins | -->
 
 ## Public pages
 
